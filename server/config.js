@@ -23,7 +23,7 @@ function config(app, express) {
   app.externalPasscode = process.env.EXTERNAL_PASSCODE || 'external';
 
 }
-
+//This comment is useless
 function envConfig() {
     return {
         isGirlsDojo: process.env.GIRLS_DOJO === 'true',
