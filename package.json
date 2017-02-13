@@ -1,6 +1,6 @@
 {
   "name": "coderdojo-signup",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "CoderDojo Registration App",
   "main": "index.js",
   "scripts": {
