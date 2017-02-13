@@ -29,9 +29,9 @@ function envConfig() {
         isGirlsDojo: process.env.GIRLS_DOJO === 'true',
         passcodeRequired: process.env.PASSCODE_REQUIRED === 'true',
         eventInfo: {
-            name: process.env.EVENT_NAME || 'Bankwest CoderDojo',
-            date: process.env.EVENT_DATE || 'TBA',
-            dateShort: process.env.EVENT_DATE_SHORT || 'TBA'
+            name: process.env.EVENT_NAME || 'CACACACAC',
+            date: process.env.EVENT_DATE || 'March 1st - March 29th',
+            dateShort: process.env.EVENT_DATE_SHORT || 'CATCACACAC',
         }
     }
 }

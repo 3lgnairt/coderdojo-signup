@@ -11,7 +11,7 @@
     function TextConstants(isGirlsDojo, eventInfo) {
         var text = {
             title: eventInfo.name,
-            information: 'The ' + eventInfo.name + ' will be run from' + eventInfo.date + 'Sessions will run from 4:30pm till 6pm on the Podium level at Bankwest place.',
+            information: 'The ' + process.env.EVENT_NAME + ' HELLO TEST be run from' + eventInfo.date + 'Sessions will run from 4:30pm till 6pm on the Podium level at Bankwest place.',
             activities: [
                 'Scratch',
                 'Game Maker',
