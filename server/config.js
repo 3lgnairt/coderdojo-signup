@@ -23,8 +23,6 @@ function config(app, express) {
   app.externalPasscode = process.env.EXTERNAL_PASSCODE || 'external';
 
 }
-//This comment is useless
-//but it is required for a commit and push
 function envConfig() {
     return {
         isGirlsDojo: process.env.GIRLS_DOJO === 'true',
