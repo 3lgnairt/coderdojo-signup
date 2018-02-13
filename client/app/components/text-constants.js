@@ -17,7 +17,7 @@
                 'Game Maker',
                 'LEGO Mindstorm Robots',
                 'Website Development',
-                'Other'
+                'Assemble a Computer'
             ],
             photoWaiver: 'By participating in this CoderDojo Event, you understand that photos/video may be taken of your child and/or yourself by Bankwest '
                 + 'and/or CoderDojo WA and that these photos/videos may be used in social or other media to promote Bankwest\'s support of CoderDojo and the '
