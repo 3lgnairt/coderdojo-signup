@@ -15,7 +15,7 @@ function config(app, express) {
   app.use(express.static(__dirname + '/../dist'));
   app.use(middle.logError);
   app.use(middle.handleError);
-
+/*pointless comment*/
   app.passcodeRequired = process.env.PASSCODE_REQUIRED === 'true';
   app.maxBwNinjas = parseInt(process.env.MAX_BW_NINJAS) || 15;
   app.maxNonBwNinjas = parseInt(process.env.MAX_NON_BW_NINJAS) || 15;
