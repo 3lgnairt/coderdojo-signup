@@ -26,7 +26,7 @@ function config(app, express) {
 function envConfig() {
     return {
         isGirlsDojo: process.env.GIRLS_DOJO === 'true',
-        passcodeRequired: process.env.PASSCODE_REQUIRED === 'false',
+        passcodeRequired: process.env.PASSCODE_REQUIRED === 'true',
         eventInfo: {
             name: process.env.EVENT_NAME || 'Coder Dojo Bankwest Semester 2',
             date: process.env.EVENT_DATE || '5th of June - 26th of June 2018',
