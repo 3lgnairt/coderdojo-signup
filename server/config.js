@@ -16,7 +16,7 @@ function config(app, express) {
   app.use(middle.logError);
   app.use(middle.handleError);
 /*pointless comment*/
-  app.passcodeRequired = process.env.PASSCODE_REQUIRED === 'true';
+  app.passcodeRequired = process.env.PASSCODE_REQUIRED === 'false';
   app.maxBwNinjas = parseInt(process.env.MAX_BW_NINJAS) || 15;
   app.maxNonBwNinjas = parseInt(process.env.MAX_NON_BW_NINJAS) || 15;
   app.bwPasscode = process.env.BW_PASSCODE || 'bankwest';
@@ -25,7 +25,7 @@ function config(app, express) {
 }
 function envConfig() {
     return {
-        isGirlsDojo: process.env.GIRLS_DOJO === 'true',
+        isGirlsDojo: process.env.GIRLS_DOJO === 'false',
         passcodeRequired: process.env.PASSCODE_REQUIRED === 'false',
         eventInfo: {
             name: process.env.EVENT_NAME || 'Coder Dojo Bankwest Semester 2',
