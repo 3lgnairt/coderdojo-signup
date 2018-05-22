@@ -19,7 +19,7 @@ function config(app, express) {
   app.passcodeRequired = process.env.PASSCODE_REQUIRED === 'false';
   app.maxBwNinjas = parseInt(process.env.MAX_BW_NINJAS) || 15;
   app.maxNonBwNinjas = parseInt(process.env.MAX_NON_BW_NINJAS) || 15;
-  app.bwPasscode = process.env.BW_PASSCODE || 'bankwest';
+  app.bwPasscode = process.env.BW_PASSCODE || '';
   app.externalPasscode = process.env.EXTERNAL_PASSCODE || 'external';
 
 }
