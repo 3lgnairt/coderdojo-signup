@@ -25,12 +25,12 @@ function config(app, express) {
 }
 function envConfig() {
     return {
-        isGirlsDojo: process.env.GIRLS_DOJO === 'true',
-        passcodeRequired: process.env.PASSCODE_REQUIRED === 'true',
+        isGirlsDojo: process.env.GIRLS_DOJO === 'false',
+        passcodeRequired: process.env.PASSCODE_REQUIRED === 'false',
         eventInfo: {
-            name: process.env.EVENT_NAME || 'Coder Dojo Bankwest',
-            date: process.env.EVENT_DATE || 'TBC',
-            dateShort: process.env.EVENT_DATE_SHORT || 'TBC'
+            name: process.env.EVENT_NAME || 'Coder Dojo Bankwest Semester 2',
+            date: process.env.EVENT_DATE || '5th of June - 26th of June 2018',
+            dateShort: process.env.EVENT_DATE_SHORT || 'June 2018'
         }
     }
 }
